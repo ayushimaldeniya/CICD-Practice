@@ -24,4 +24,4 @@ jobs:
         run: pytest -v 
  
       - name: Run Bandit security scan 
-        run: bandit -r app.py -LL
+        run: bandit -r app.py -ll
